@@ -19,7 +19,6 @@ int32_t main(){
 	//Init
 	for (int i = 0; i < n; ++i)
 	{
-		/* code */
 		arr[i] = n-i;
 	}
 

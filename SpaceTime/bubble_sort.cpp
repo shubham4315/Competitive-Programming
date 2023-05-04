@@ -33,10 +33,8 @@ int main(){
 
 	std::vector<int> arr(n,0);
 
-	//Init
 	for (int i = 0; i < n; ++i)
 	{
-		/* code */
 		arr[i] = n-i;
 	}
 
@@ -45,8 +43,9 @@ int main(){
 	bubble_sort(arr,n);
 	auto end_time = clock();
 
-	for (int i=0; i<arr.size(); ++i)
-    std::cout <<"Number at index "<< i << "is : " << arr[i] <<endl;
+	for (int i=0; i<arr.size(); ++i){
+    		std::cout <<"Number at index "<< i << "is : " << arr[i] <<endl;
+	}
 
 	cout << end_time - start_time << endl;
 
